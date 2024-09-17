@@ -1,0 +1,35 @@
+# Análise de Popularidade das Linguagens de Programação (2019-2024)
+
+## Descrição
+
+Este projeto realiza uma análise detalhada da popularidade de três linguagens de programação (Python, Java e C++) ao longo do período de abril de 2019 a abril de 2024. Utilizamos dados fictícios gerados para simular as tendências de popularidade, aplicando técnicas de visualização de dados e estatísticas para identificar padrões.
+
+## Funcionalidades
+
+- **Visualização temporal**: gráficos que mostram a evolução da popularidade das linguagens ao longo do tempo.
+- **Médias móveis**: aplicação de médias móveis de curto e longo prazo para análise de tendências.
+- **Análise sazonal**: análise da sazonalidade das linguagens ao longo dos meses de cada ano.
+- **Desvio padrão**: análise de volatilidade das linguagens através do desvio padrão mensal.
+
+## Estrutura do Projeto
+
+
+├── data/ │ └── dados_ficticios.csv # Arquivo com os dados fictícios de popularidade (não incluído) ├── src/ │ ├── analise_popularidade.py # Código para gerar as análises e gráficos ├── reports/ │ └── relatorio_analise_popularidade.md # Relatório gerado com as principais conclusões ├── .gitignore ├── LICENSE ├── README.md └── requirements.txt
+
+
+## Dependências
+
+Este projeto utiliza as seguintes bibliotecas Python:
+- `pandas`
+- `numpy`
+- `matplotlib`
+
+Para instalar as dependências, execute:
+
+```bash
+pip install -r requirements.txt
+
+Como Executar
+git clone https://github.com/usuario/analise-popularidade-linguagens.git
+cd analise-popularidade-linguagens
+python src/analise_popularidade.py
